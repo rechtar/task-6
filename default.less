@@ -1,0 +1,50 @@
+body {
+    color: rgb(77, 78, 83);
+}
+
+/* Prettier Links */
+a {
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+a:link { color: #0074d9; }
+a:visited { color: #b10dc9; }
+a:hover { color: #7fdbff; }
+a:active { color: #ff851b; }
+
+.main-padding-wrapper {
+    position: relative;
+    border-left: 10px solid #2E3436;
+    margin: 40px auto;
+    width: 720px;
+
+    /* From MDN */
+    background: rgba(234,239,242,0.25);
+    border-left: 6px solid rgba(0,83,159,0.65);
+    background-image: url("blueprint-dark.png");
+    background-position: top center;
+    background-repeat: repeat;
+}
+
+.main {
+    position: relative;
+    padding: 20px;
+    /* white-space: pre-wrap; */
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+    tab-size: 4;
+}
+
+.output > .response {
+    color: rgba(77, 78, 83, .5);
+}
+
+#form {
+    position: fixed;
+}
+
+input, select {
+    font-family: 'Consolas', monospace;
+    font-size: 13px;
+    border: 1px solid rgba(0,83,159,0.65);
+}
